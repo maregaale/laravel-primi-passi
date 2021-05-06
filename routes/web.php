@@ -18,7 +18,11 @@ Route::get('/', function () {
 });
 
 Route::get('/hello-world', function () {
-    return "Hello world!";
+    return "<h1>Hello world!</h1>";
+});
+
+Route::get('/chi-siamo', function () {
+    return "<p>La Classe 27</p>";
 });
 
 
